@@ -1,0 +1,146 @@
+body {
+	margin: 0;
+	height: 100%;
+	background-color: black;
+	font-family: Helvetica, sans-serif;
+	font-size: 22px;
+	text-align: center;
+}
+
+/* Fixed header always on top */
+header {
+	display: flex;
+	background-color: black;
+	border-bottom: 1px solid seashell;
+	position: fixed;
+	z-index: 5;
+	width: 100%;
+	height: 69px;
+	align-items: center;
+}
+
+nav {
+	display: flex;
+	justify-content: space-around;
+	flex-grow: 0.05;
+}
+
+a {
+	color: seashell;
+	font-weight: normal;
+}
+
+/* logo styling */
+.logo {
+	display: flex;
+	padding-left: 10px;
+	flex-grow: 1;
+}
+
+.logo img {
+	max-height: 50px;
+}
+
+/* Styling for main content sections */
+#main-content {
+	display: flex;
+	justify-content: center;
+	align-items: space-between;
+	flex-wrap: wrap;
+	padding-top: 69px;
+	width: 1200px;
+	height: 100%;
+	margin: 0 auto;
+	opacity: 0.9;
+}
+
+#mission {
+	display: flex;
+	background-image: url("../images/img-mission-background.jpg");
+	color: seashell;
+	height: 700px;
+	flex-grow: 1;
+	align-items: center;
+	justify-content: center;
+}
+
+.statement {
+	background-color: black;
+	width: 100%;
+	text-align: center;
+}
+
+/* Tea of the month section styling */
+#featured {
+	color: seashell;
+	height: 700px;
+	width: 1000px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+
+#featured .teas {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+#featured .item {
+	display: flex;
+	flex-direction: column;
+	width: 300px;
+	padding: 10px 15px;
+}
+
+#featured h4 {
+	margin: 15px auto;
+}
+
+#featured img {
+	height: 200px;
+	width: 300px;
+}
+
+/* Locations Section Styling */
+#location {
+	color: seashell;
+	background-image: url("../images/img-locations-background.jpg");
+	height: 500px;
+	width: 1200px;
+	padding-top: 70px;
+}
+
+#location h2 {
+	margin: 5px;
+}
+
+#location .store-locations {
+	display: flex;
+	justify-content: center;
+}
+
+#location .store {
+	display: flex;
+	flex-direction: column;
+	background-color: black;
+	opacity: 1;
+	height: 300px;
+	width: 300px;
+	margin: 5px 20px;
+}
+
+#contact {
+	color: seashell;
+	height: 200px;
+}
+
+#contact .name {
+	padding: 3px;
+}
+
+footer {
+	color: seashell;
+	text-align: left;
+	margin-left: 20px;
+}
